@@ -3,7 +3,10 @@ class Table {
     double height;
     double diameter;
 
-    Table() {
+    Table(String name, double height, double diameter) {
+        this.name = name;
+        this.height = height;
+        this.diameter = diameter;
 
     }
 }
